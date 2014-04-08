@@ -350,7 +350,8 @@ map <leader>x :e ~/buffer.md<cr>
 " Toggle paste mode on and off
 map <leader>pp :setlocal paste!<cr>
 
-
+" By Jurian Sluiman (April 8 2014) to remap <Esc> key to jj
+inoremap jj <Esc>   """ jj key is <Esc> setting
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Helper functions
