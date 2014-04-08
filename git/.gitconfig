@@ -1,0 +1,14 @@
+[alias]
+    st = status
+    ci = commit
+    co = checkout
+    br = branch
+    df = diff
+    lg = log -p
+    unstage = reset HEAD --
+    last = log -1 HEAD
+[user]
+    name = Jurian Sluiman
+    email = jurian@soflomo.com
+[core]
+    editor = vim
