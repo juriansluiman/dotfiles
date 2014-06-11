@@ -353,6 +353,12 @@ map <leader>pp :setlocal paste!<cr>
 " By Jurian Sluiman (April 8 2014) to remap <Esc> key to jj
 inoremap jj <Esc>   """ jj key is <Esc> setting
 
+" By Jurian Sluiman (June 11 2014) to have shift-tab de-indent
+" For command mode
+nmap <S-Tab> <<
+" for insert mode
+imap <S-Tab> <Esc><<i
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Helper functions
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
