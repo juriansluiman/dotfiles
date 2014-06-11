@@ -15,3 +15,8 @@ alias vassh='vagrant ssh'
 alias vaup='vagrant up'
 alias vap='vagrant provision'
 alias vahalt='vagrant halt'
+
+# Git alias and alias autocompetion
+alias g='git'
+complete -o bashdefault -o default -o nospace -F _git g 2>/dev/null \
+    || complete -o default -o nospace -F _git g
