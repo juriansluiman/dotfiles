@@ -13,3 +13,5 @@
     email = jurian@soflomo.com
 [core]
     editor = vim
+[push]
+    default = current
