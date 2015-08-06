@@ -10,7 +10,7 @@
     up = "!git remote update -p; git merge --ff-only @{u}"
 [user]
     name = Jurian Sluiman
-    email = jurian@soflomo.com
+    email = jurian@juriansluiman.nl
 [core]
     editor = vim
 [push]
