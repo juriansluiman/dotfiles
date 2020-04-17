@@ -20,3 +20,9 @@ alias vahalt='vagrant halt'
 alias g='git'
 complete -o bashdefault -o default -o nospace -F _git g 2>/dev/null \
     || complete -o default -o nospace -F _git g
+
+# Server deployment aliases
+alias hugo='docker run --rm --name hugo -it -p 1313:1313 --user 1000:1000 -v $(pwd):/src klakegg/hugo:ext-nodejs'
+alias npm='docker exec -ti hugo npm'
+alias deploy='ansible-playbook ~/Projects/Ansible/deploy.yml'
+
